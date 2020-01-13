@@ -1,7 +1,50 @@
+html {
+    box-sizing: border-box;
+}
 @font-face {
     src: url(font/Montserrat-Medium.ttf);
     font-family: monserrat;
 }
-body{
+.container {
     background-color: rgb(255, 255, 255);
-    font-family:'Montserrat', sans-serif;}
+    max-width: 800px;
+    font-family:'Montserrat', sans-serif;
+    padding: 30px;
+    margin: 100px;
+    margin-top: 10px;
+}
+.seccion {
+height: 25%;
+width: 100%;
+column-count: 2;
+}
+
+#foto {
+    display:initial;
+}
+#name {
+  width: 600px;
+  height: 30px;
+  padding-top: 12px;
+  color: black;
+  text-align: left;
+  padding: 10px;
+  font-size: 40px; 
+  line-height: 25px;
+  border-radius: 4px;
+  overflow: hidden;
+  font-weight: 600;
+}
+
+.titulo {
+  width: 600px;
+  height: 30px;
+  padding-top: 12px;
+  color: black;
+  text-align:center;
+  padding: 10px;
+  font-size: 35px; 
+  line-height: 25px;
+  border-radius: 4px;
+  overflow: hidden;
+}
