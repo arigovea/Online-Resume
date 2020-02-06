@@ -1,0 +1,117 @@
+
+#container{
+    display: flex;
+    flex-direction: row;
+    width: 768px;
+    height: 1024px;
+}
+.menu{
+    width: 35%;
+    background-color: #00a79d;
+    height: 100%;
+}
+.content{
+    width: 65%;
+}
+#photo{
+    height: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 66%;
+}
+.menu-info{
+    height: 24%;
+    color: white;
+    text-align: center;
+}
+.menu .menu-info h3{
+    background-color: #085b56;
+    width: 90%;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+.w3-progress-container {
+    width: 55%;
+    height: 1em;
+    position: relative;
+    background-color: #f1f1f1;
+    background-clip: content-box;
+    margin-left: 12px;
+  }
+  .w3-progressbar {
+    background-color: #757575;
+    height: 100%;
+    line-height: inherit;
+    background-clip: content-box;
+  }
+  #languages{
+    display: flex;
+    flex-wrap: wrap;  
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 15px;
+    overflow: auto;
+    padding-top: 45px;
+}
+  #languages p{
+      text-align: left;
+      padding-right: 15px;
+  }
+  h1{
+      font-size: 2.80em;
+      font-family: "BebasNeueRegular";
+      text-align: center;
+      margin-bottom: 0ex;
+  }
+  .content-info-title p {
+      margin-top: 0ex;
+      text-align: center;
+      font-family: Helvetica;
+      font-weight: bolder;
+      margin-bottom: 40px;
+  }
+  .content-info{
+      height: auto;
+      margin-left: 5ex;
+
+  }
+  .box{
+      background-color: #085b56;
+      height: 14px;
+      width: 14%;
+      display: inline-block;
+  }
+  h2{
+      display: inline-block;
+      margin: 1ex;
+  }
+  .box-info{
+      display: flex;
+      flex-direction: row;
+      margin: 0px;
+  }
+  .years{
+      width: 80px;
+      margin-right: 15px;
+      text-align: start;
+      margin-top: 0px;
+  }
+h3{
+    margin: 0px;
+}
+.box-info p{
+    text-align: justify;
+    margin-top: 0px;
+}
+.box-info{
+    width: 100%;
+    margin-right: 0px;
+}
+  
