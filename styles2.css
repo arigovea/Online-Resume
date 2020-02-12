@@ -19,29 +19,28 @@ body{
 .menu{
     width: 35%;
     background-color: #00a79d;
-    height: 100%;
+    height: auto;
+    padding-top: 40px;
 }
 .content{
     width: 65%;
+    padding-top: 40px;
+    height: auto;
 }
-#photo{
-    height: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.menu-info.smaller{
+    height: 18%;
 }
-img{
-    height: 66%;
-    border-radius: 30em;
-    border: 3000rem;
-}
+
 .contact{
-    height: 12%;
+    height: 50%;
+    margin-top: 12%;
+    margin-bottom: 12%;
 }
 .contact-info{
     height: 1.5em;
     text-align: left;
-    padding-left: 2rem;;
+    padding-left: 2rem;
+
 }
 .contact-info p{
     display: inline-block;
@@ -63,9 +62,20 @@ a:hover {
     color: white;
   }
 .menu-info{
-    height: 23%;
+    height: 22%;
     color: white;
     text-align: center;
+    justify-content: center;
+}
+.menu-info.larger{
+    height: 37%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.menu-info.larger ul{
+    margin-top: 17%;
+    margin-bottom: 17%;
 }
 #about-me{
     text-align: justify;
@@ -77,11 +87,16 @@ a:hover {
     background-color: #085b56;
     width: 90%;
     text-align: center;
+    height: 20px;
+    padding-top: 5px;
 }
 ul{
     list-style: none;
     text-align: justify;
-    margin-top: 3em;
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+    font-size: small;
+
 }
 .w3-progress-container {
     width: 45%;
@@ -103,21 +118,23 @@ ul{
     width: 80%;
     flex-direction: row;
     justify-content: center;
-    margin-left: 25px;
+    margin-left: 20px;
     overflow: auto;
-    padding-top: 3em;
+    padding-top: 4em;
 }
   #languages p{
       text-align: justify;
       padding-right: 15px;
+      font-size: small;
   }
   h1{
       font-size: 2.2rem;
-      width: 100%;
+      width: 96%;
       text-align: center;
       margin-bottom: 0ex;
       margin-left: 2rem;
       font-family: Helvetica;
+      margin-top: 0%;
   }
   .content{
       padding-right: 3em;
@@ -125,14 +142,14 @@ ul{
   .content-info-title p {
       margin-top: 10px;
       text-align: center;
-      margin-bottom: 40px;
-      margin-left: 3.7rem;
-      text-align: left;
-      font-size: large;
+      margin-bottom: 25px;
+      margin-left: 2.9rem;
+      text-align: justify;
+      font-size: small;
   }
   .content-info{
       height: auto;
-      margin-left: 3.4rem;
+      margin-left: 2.9rem;
 
   }
   .box{
@@ -152,30 +169,31 @@ ul{
       width: 100%;
       margin: 0px;
       text-align: justify;
-      margin-top: .7em;
   }
+.box-info.first{
+    margin-top: 10px;
+}
   .jobs{
     text-align: justify;
     margin-top: 0px;
 }
   .years{
-      width: 20%;
-      margin-right: 3em;
+      width: 32%;
+      margin-right: 2em;
       margin-top: 0px;
       text-align: right;
+      font-size: small;
   }
 h3{
     margin: 0px;
     font-family: Helvetica;
-    font-size: medium;
+    font-size: small;
 }
 .info{
     width: 80%;
     display: inline-block;
-    font-size: medium;
+    font-size: small;
 }
-.prog-lang{
-    text-align: left;
-    margin-left: 6.5rem;
-    margin-top: 14px;
+#achiv{
+    font-weight: bolder;
 }
