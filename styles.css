@@ -13,8 +13,9 @@ body{
     background-color: white;
     font-weight: bold;
     padding: 0em 25em;
-    margin: 0px;
+    margin-right:auto;
     background-clip: content-box;
+    justify-content:center;
 }
 .menu{
     width: 35%;
@@ -214,4 +215,8 @@ body button:hover {
     background-color:#00a79d;
     color: white;
     text-decoration: none;
+}
+
+.zoom:hover{
+    transform: scale(1.275); 
 }
